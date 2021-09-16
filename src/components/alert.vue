@@ -53,6 +53,7 @@ import axios from 'axios'
         this.dismissCountDown = this.dismissSecs
       }
     },
+    
     mounted() {
         const headers = { "Content-Type": "application/json" };
         axios.post('http://esl.minew.com:9191/V1/Login', {"username":"Test069","password":"Secure069"}, headers)
