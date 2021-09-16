@@ -61,5 +61,5 @@ import axios from 'axios'
             this.token= resp.data.body.token
         })
     },
-  }
+  }    
 </script>
